@@ -1,0 +1,12 @@
+def MyFunc():
+	global x
+	x = "Easy Language"
+
+MyFunc()
+
+print("Python is "+x)
+
+def Intro():
+	print("Python is better because it is "+x)
+
+Intro()
