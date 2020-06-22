@@ -1,0 +1,11 @@
+import random
+
+print(random.randrange(1, 100))
+
+# using the randrange attribut we decide the range of printing the random number digit.
+
+print(random.randrange(1, 200))
+
+# This function returns a randomly selected integer from range(start, stop, step). Use this function to generate a random integer number within a range. 
+
+print(random.randrange(2,20,2))
